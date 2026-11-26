@@ -1,30 +1,30 @@
 class Typx < Formula
-  desc "Terminal editor for Typst with live math concealment, outline, tinymist LSP, and Sixel preview"
+  desc "Terminal editor for Typst with live math concealment, outline, tinymist LSP, and Kitty/Sixel preview"
   homepage "https://github.com/monicafaye/TypX"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/monicafaye/TypX/releases/download/v#{version}/typx-#{version}-darwin-arm64.tar.gz"
-      sha256 "fe9d8a304537b8e0e650b2a45173b5298e946feafca5e69491c1469029464e3d"
+      sha256 "a46e9dcbf081aa5b7f09c214d771db9e3068670538f2c93531c166f57a4a56f3"
     end
 
     on_intel do
       url "https://github.com/monicafaye/TypX/releases/download/v#{version}/typx-#{version}-darwin-amd64.tar.gz"
-      sha256 "2977ba0cdb5fc6907397042ce4068f5434f1be33efa3996b050a825873d458fe"
+      sha256 "578307cf6b71ed41d61d82ff4256c33f4e694e524881658852e33931ea6c60e5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/monicafaye/TypX/releases/download/v#{version}/typx-#{version}-linux-arm64.tar.gz"
-      sha256 "e27efc40b543264b55eee85bfc71864d34b43e6c83fd03de0cf27b301ce72005"
+      sha256 "b0f709e5179130c41dbc78d890ef586bf8c9fe8ecc0a082e00abe1249d513eac"
     end
 
     on_intel do
       url "https://github.com/monicafaye/TypX/releases/download/v#{version}/typx-#{version}-linux-amd64.tar.gz"
-      sha256 "0d492da12b42a796de1b810631ebf60b06136f544103806bdf56a8a461ba0cbb"
+      sha256 "1b4d54e13ad6f75b84814c2dee6ae82d380f9f7745db892dd0a4ff0a9d882b69"
     end
   end
 
